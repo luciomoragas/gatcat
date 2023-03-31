@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Phone ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello there! Mi nombre es Santiago Baliño y esta es mi aplicación de una landing page para compra de celulares.
 
-## Available Scripts
+## Video
 
-In the project directory, you can run:
+[Video del funcionamiento de la app](https://www.youtube.com/watch?v=o75FKSG4ki0&ab_channel=SantiagoBali%C3%B1o).
 
-### `npm start`
+## Deploy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Página del sitio](https://phone-app-balino.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tecnologías
 
-### `npm test`
+- HTML
+- Javascript
+- CSS
+- React(v18)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Librerias
 
-### `npm run build`
+- react-dom: "^18.1.0"
+- firebase: "^9.8.4"
+- sweetalert2: "^11.4.17"
+- dayjs: "^1.11.4"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ¿Por qué el uso de estas librerias?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React-dom : Usada para controlar las rutas de la aplicación.
+- Firebase: Es donde estan alojados todos los archivos y donde se guardan las ordenes de compra.
+- sweetalert2: Display de alertas personalizadas para no usar el alert por defecto y generar una mejor experiencia de usuario.
+- Dayjs: Usado para parsear la fecha de compra recibida de Firebase y darle un formato personalizado.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Uso / Instalación
 
-### `npm run eject`
+Clonar el proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/Luvwen/phone-shop-balino.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ir a la carpeta del proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd my-project
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instalar dependencias
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Inicializar el servidor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm run start
+```
